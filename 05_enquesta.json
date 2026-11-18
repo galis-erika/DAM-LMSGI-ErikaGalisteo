@@ -1,0 +1,60 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Satisfacció amb el gimnàs",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Amb quina freqüència vens al gimnàs?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Menys d'un cop per setmana",
+            "1-2 cops per setmana",
+            "3-4 cops per setmana",
+            "Cada dia"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Com valores la neteja de les instal·lacions?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Molt dolenta",
+            "Millorable",
+            "Bona",
+            "Excel·lent"
+          ]
+        },
+        {
+          "ordre": 3,
+          "text": "Què milloraries del gimnàs?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Avaluació del curs de programació",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quin tema t'ha resultat més útil?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Estructures de control",
+            "Excepcions",
+            "XML i JSON"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Explica breument la teva experiència al curs.",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
